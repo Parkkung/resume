@@ -1,5 +1,5 @@
 import Nav from "./components/Nav";
-import ScrollProgress from "./components/scrollProgress";
+import ScrollProgress from "./components/ScrollProgress";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
