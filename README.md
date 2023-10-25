@@ -1,3 +1,19 @@
-The responsive web application create b react+vite with tailwind css for be a part of my portfolio, learn and do following javascript mastery youtube channel
+My react resume website for job interview create by react+vite, tailwindcss, framer-motion, gsap and emailjs
 
-Resources
+If you want to see the website please go to this link
+https://apiparkresume.netlify.app/
+
+
+Anyway if this website is useful, you can clone and apply for yourself
+
+```
+git clone https://github.com/Parkkung/resume.git
+```
+
+```
+npm install
+```
+
+```
+npm run dev
+```
