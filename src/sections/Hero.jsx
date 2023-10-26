@@ -27,11 +27,11 @@ const Hero = () => {
             className=' text-2xl text-slate-gray' />
         </h2>
         <div className='flex gap-2 pt-4'>
-            <a href="https://github.com/Parkkung">
+            <a href=" https://www.linkedin.com/in/apipark-withedvorrakit-244a7b296/">
                 <AiOutlineLinkedin 
                 className=' h-6 w-6 text-white hover:text-indigo-600'/>
             </a>
-            <a href="https://www.linkedin.com/in/apipark-withedvorrakit-244a7b296/">
+            <a href="https://github.com/Parkkung">
                 <AiOutlineGithub 
                 className=' h-6 w-6 text-white hover:text-indigo-600'/>
             </a>

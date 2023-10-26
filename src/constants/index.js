@@ -1,5 +1,5 @@
 import { css, cSharp, django, docker, figma, firebase, git, html, js, mongoDB, mySQL, nextjs, nodejs, python, reactjs, reduxjs, tailwind, vitejs } from "../assets/logo";
-import { experience1, experience2, experience3, experience4, cryptian, orun, nike, photograph } from "../assets/images";
+import { experience1, experience2, experience3, experience4, cryptian, orun, nike, photograph, los } from "../assets/images";
 
 
 export const navLinks = [
@@ -43,9 +43,10 @@ export const others = [
 
 export const projectCard = [
     { name: orun, id: 1, url: "https://github.com/Parkkung/O-run-"},
-    { name: cryptian, id: 2, url: "https://github.com/mark47546/Cryptians"},
-    { name: photograph, id: 3, url: "https://apipark-photograph.netlify.app/"},
-    { name: nike, id: 4, url: "https://park-nike-clone.netlify.app/"},
+    { name: los, id: 2, url: "https://github.com/Klan300/league_of_saras"},
+    { name: cryptian, id: 3, url: "https://github.com/mark47546/Cryptians"},
+    { name: photograph, id: 4, url: "https://apipark-photograph.netlify.app/"},
+    { name: nike, id: 5, url: "https://park-nike-clone.netlify.app/"},
 ]
 
 

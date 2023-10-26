@@ -3,6 +3,7 @@ import experience2 from './experience2.jpeg'
 import experience3 from './experience3.jpeg'
 import experience4 from './experience4.jpeg'
 import orun from './orun.png'
+import los from './los.png'
 import cryptian from './cryptians.png'
 import photograph from './photograph.png'
 import nike from './nike-clone.png'
@@ -15,6 +16,7 @@ export {
     experience3,
     experience4,
     orun,
+    los,
     cryptian,
     photograph,
     nike,
