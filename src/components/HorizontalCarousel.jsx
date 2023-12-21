@@ -22,7 +22,7 @@ const HorizontalCarousel = () => {
             >
                 { projectCard.map((card) => (
                    <div key={card.id}
-                   className=" group relative h-[350px] w-[450px] bg-neutral-200">
+                   className=" group relative h-[350px] w-[450px] max-md:w-[270px] max-md:h-[210px] bg-neutral-200">
                         <a href={ card.url }>  
                           <img 
                           src={ card.name } 

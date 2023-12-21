@@ -20,7 +20,7 @@ const Skills = () => {
 
 
   return (
-    <section className=' px-10 h-[75vh] w-full' id='resume'>
+    <section className=' pt-44 px-10 h-[75vh] w-full max-md:h-[100vh]' id='resume'>
         <div className=''>
 
         <div className=' flex flex-col'>
@@ -85,7 +85,7 @@ const Skills = () => {
                 LIBRARIES & FRAMEWORK
             </motion.p>
             {/* image */}
-            <div className=' flex gap-6 pt-5 '>
+            <div className=' flex flex-wrap gap-6 pt-5 '>
                 { frameworks.map((logo) => (
                     <motion.img src={ logo.src } 
                     alt={ logo.alt } 
@@ -101,7 +101,7 @@ const Skills = () => {
                 ))}
             </div>
         </div>
-        <div className=' flex pt-5 gap-x-40'>
+        <div className=' flex pt-5 gap-x-40 max-md:gap-x-20'>
         <div>
         <motion.p
             className=' text-slate-gray'

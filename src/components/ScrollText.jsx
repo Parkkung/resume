@@ -38,7 +38,7 @@ const ScrollText = ({
   return (
     <section className="w-full relative select-none" ref={targetSection}>
       <div className="pt-28 pb-16">
-        <h1 ref={quoteRef} className=" max-container font-medium text-4xl text-center text-indigo-600">
+        <h1 ref={quoteRef} className=" max-container font-medium text-4xl max-sm:text-3xl text-center text-indigo-600">
           <span className="about-1 leading-tight">{text1}</span>
           <span className="about-2 leading-tight">{text2}</span>
         </h1>

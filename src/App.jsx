@@ -17,7 +17,7 @@ function App() {
       </section>
       <section>
         <About />
-      </section>g
+      </section>
       <section>
         <Skills />
       </section>

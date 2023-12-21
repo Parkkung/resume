@@ -11,10 +11,10 @@ const Hero = () => {
     id='home'
     className='flex justify-between items-center h-screen'> 
     {/* text */}
-    <div className='px-32'>
+    <div className='px-32 max-md:px-10'>
         <p className=' text-indigo-600 text-lg pb-2'>Hi, my name is</p>
         <p className=' relative group leading-relaxed  '>
-            <span className=' text-4xl text-white'>Apipark Withedvorrakit</span>
+            <span className=' text-4xl max-md:text-3xl text-white'>Apipark Withedvorrakit</span>
             <span className="absolute -bottom-1 left-0 w-0 h-2 bg-indigo-600 rounded-full transition-all group-hover:w-full"></span>
         </p>
          <h2 className=' pt-3'>
@@ -42,11 +42,11 @@ const Hero = () => {
             </a>
         </button>
     </div>
-    <div>
+    {/* <div>
         <img src={ heroImage }
         alt="hero"
         className=' h-[600px] relative' />
-    </div>
+    </div> */}
     </section>
   )
 }
