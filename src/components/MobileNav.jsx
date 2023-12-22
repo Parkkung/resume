@@ -35,7 +35,7 @@ const MobileNav = () => {
             variants = { menuVariants }
             initial = ' hidden '
             animate = { openMenu ? 'show' : 'hidden'}
-            className=' bg-black/80 absolute w-full h-[100vh] z-20 flex flex-row-reverse justify-center items-center'>
+            className=' bg-black/80 absolute w-full h-[100vh] top-0 z-20 flex flex-row-reverse justify-center items-center'>
                 <div onClick={ () => setopenMenu(false)}>
                     <IoMdClose
                     className='h-6 w-6 text-white cursor-pointer mb-[250px] ml-[20px]' />

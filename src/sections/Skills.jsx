@@ -35,7 +35,7 @@ const Skills = () => {
                         SKILLS
             </motion.p>
             <motion.h1 
-            className=' text-blue-600 text-4xl'
+            className=' text-blue-600 text-4xl max-md:text-3xl'
             variants={ fadeInAnimationsVariants }
             initial= "initial"
             whileInView= "animate"
